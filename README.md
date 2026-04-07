@@ -35,6 +35,7 @@ The goal of this dashboard is to simulate a real-world analytics panel with a da
 ---
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
+```
 dashboard_updated/
 │
 ├── node_modules/              # Installed dependencies
@@ -73,6 +74,7 @@ dashboard_updated/
 ├── package-lock.json         # Dependency lock file
 ├── vite.config.js            # Vite configuration
 ├── README.md                 # Project documentation
+```
 
 ---
 
