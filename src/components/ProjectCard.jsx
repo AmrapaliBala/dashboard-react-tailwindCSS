@@ -4,11 +4,11 @@ const ProjectCard = ({ project }) => {
     return (
         <div className="p-6 bg-[#1e293b] rounded-xl space-y-5 border border-slate-700 shadow-lg shadow-black/20">
             <div>
-                <h1 className="text-xl font-semibold text-white">{project.name}</h1>
-                <p className="text-sm text-gray-500">{project.type}</p>
+                <h1 className="text-xl font-semibold text-white">{project.title}</h1>
+                <p className="text-sm text-gray-500">{project.category}</p>
             </div>
 
-            <p><span className="text-xs p-2 rounded bg-gray-100">{project.date}</span></p>
+            <p><span className="text-xs p-2 rounded bg-gray-100">{project.stock}</span></p>
             
             <div className="w-full bg-gray-200 rounded-full h-2">
                 <div className="w-[40%] bg-indigo-500 rounded-full h-2"></div>

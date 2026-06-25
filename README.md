@@ -17,10 +17,9 @@ _Simple dashboard website using ReactJs, Tailwind CSS._
 ---
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-This project is a modern admin dashboard built using React.js, Tailwind CSS, and ApexCharts.
-It provides a clean and responsive interface to visualize business data such as project progress, platform usage, client information, and team distribution.
+This project is a modern analytics dashboard built using React.js, Tailwind CSS, Axios, and ApexCharts. The application provides a responsive interface for visualizing business-related data such as projects, clients, team members, and platform statistics.
 
-The goal of this dashboard is to simulate a real-world analytics panel with a dark theme UI and modular component-based architecture.
+The dashboard integrates public REST APIs to fetch and display dynamic data in real time, demonstrating practical API consumption, state management with React Hooks, and component-based architecture.
 
 ---
 
@@ -30,6 +29,8 @@ The goal of this dashboard is to simulate a real-world analytics panel with a da
 - Tailwind CSS → Utility-first styling for fast and responsive design
 - ApexCharts → Interactive and customizable charts
 - React Router → Page navigation and layout structure
+- Axios → HTTP client for API requests
+- REST APIs → Dynamic data integration
 - GitHub
 
 ---
@@ -81,8 +82,9 @@ dashboard_updated/
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
 
 The dashboard includes multiple sections:
-- 📊 Growth Statistics → Area charts using ApexCharts
+- 📊 Project Statistics → Area charts using ApexCharts
 - 🌐 Platforms → Device/user distribution
+- 🌐 API Integration → Dynamic data fetched from public APIs
 - 📁 Current Projects → Progress tracking with files & members
 - 🧑‍💼 Clients → Client information cards
 - 👥 Members → Team distribution
@@ -99,11 +101,12 @@ The dashboard includes multiple sections:
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-- Add API integration (real backend data)
-- Implement authentication (login system)
+- Connect dashboard to a custom backend
+- Implement authentication (JWT)
+- Add filtering and search functionality
 - Add dark/light mode toggle
-- Improve charts with real-time updates
-- Use state management (Redux / Context API) for scaling
+- Implement Redux Toolkit or Context API
+- Add real-time updates using WebSockets
 
 ---
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>

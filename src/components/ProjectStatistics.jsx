@@ -96,7 +96,7 @@ const ProjectStatistics = () => {
       <div className="w-full bg-[#1e293b] text-white border border-slate-700 shadow-lg shadow-black/20 rounded-xl  p-4 md:p-6">
         <div className="flex justify-between">
           <div>
-            <h5 className="text-2xl text-indigo-500 font-bold text-heading">Growth Statistics</h5>
+            <h5 className="text-2xl text-indigo-500 font-bold text-heading">Project Statistics</h5>
           </div>
           <div className="flex items-center px-2.5 py-0.5 font-medium text-fg-success text-center text-green-400">
             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v13m0-13 4 4m-4-4-4 4" /></svg>
